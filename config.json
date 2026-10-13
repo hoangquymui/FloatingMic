@@ -1,0 +1,33 @@
+{
+  "_ghi_chu": "Cấu hình Đầu Vào (Input Mic) và Đầu Ra (Output Văn Bản) - Chuẩn hóa độ chính xác cao",
+  "input": {
+    "device_index": null,
+    "sample_rate": 16000,
+    "block_size": 4096,
+    "channels": 1,
+    "rms_threshold": 0.005,
+    "vad_threshold": 0.35,
+    "silence_seconds_to_commit": 0.85,
+    "preroll_blocks": 2,
+    "step_seconds": 0.20,
+    "min_decode_seconds": 0.3,
+    "max_window_seconds": 6.0,
+    "ring_buffer_seconds": 12,
+    "dc_offset_removal": true
+  },
+  "output": {
+    "auto_space": true,
+    "auto_enter": false,
+    "auto_capitalize": true,
+    "format_punctuation": true,
+    "convert_numbers": true,
+    "strip_fillers": true,
+    "paste_delay_ms": 60,
+    "min_text_length": 1
+  },
+  "ui": {
+    "always_on_top": true,
+    "opacity": 0.96,
+    "start_expanded": false
+  }
+}
